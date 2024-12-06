@@ -109,7 +109,7 @@ def calculations(beginning_time, time_interval):
     if ball.active_boost:  # if the user activates the boost then it multiplies the new velocity
         ball.boost_timer -= time_interval
         if ball.boost_timer > 0:
-            mult = 1.028
+            mult = 1.03
         else:
             ball.active_boost = False
 
@@ -121,10 +121,10 @@ def calculations(beginning_time, time_interval):
         lose()
 
     if count > threshold:
-        threshold = np.clip(np.random.normal(95, 52), 70, 180)  # this determines how much counts it has to wait to evoke a new platform
+        threshold = np.clip(np.random.normal(92, 52), 70, 180)  # this determines how much counts it has to wait to evoke a new platform
         count = 0
 
-        width = int(np.clip(np.random.normal(110-(beginning_time-time.time())*0.62, 55), 62, 202))
+        width = int(np.clip(np.random.normal(118-(beginning_time-time.time())*0.62, 55), 62, 202))
         x = random.randint(0, Engine.window_width - width)
 
         r = np.clip(np.random.normal(210, 35), 5, 255)
@@ -140,14 +140,14 @@ def calculations(beginning_time, time_interval):
                 update_score(1)
                 if first_collision:
                     first_collision = False
-                    Gravity = 1.168
+                    Gravity = 1.17
                     ball.vel = 32
-                if ball.vel < 11.5:
-                    ball.vel = 11.5
+                if ball.vel < 14:
+                    ball.vel = 14
                 elif ball.vel > 40:
                     ball.vel = 40
 
-                ball.vel = -ball.vel * 0.94  # lets reduce the kinetic energy so it doesnt tends to infinity ad the user can also boost it up with the space key
+                ball.vel = -ball.vel * 0.95  # lets reduce the kinetic energy so it doesnt tends to infinity ad the user can also boost it up with the space key
                 print("boing!")
 
     for plat in platforms:  # if the platform is out of the window then delete it
