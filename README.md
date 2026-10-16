@@ -6,7 +6,9 @@
 
 ## Una partida en marcha
 
-![Captura de Bouncy Broda durante una partida: la pelota rebota entre plataformas de colores y el marcador muestra 6 puntos.](docs/assets/bouncy-gameplay.png)
+<p align="center">
+  <img src="docs/assets/bouncy-gameplay.png" alt="Partida de Bouncy Broda: la pelota rebota entre plataformas de colores y el marcador muestra 6 puntos." width="420">
+</p>
 
 La partida termina al caer fuera de la pantalla. Cada rebote suma un punto; alcanza **70 puntos** para ganar.
 
