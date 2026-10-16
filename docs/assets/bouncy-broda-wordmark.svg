@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 190" role="img" aria-labelledby="title desc">
+  <title id="title">Bouncy Broda</title>
+  <desc id="desc">Nombre del juego en letras de colores brillantes sobre fondo negro, rodeado de caramelos sencillos.</desc>
+  <rect width="900" height="190" fill="#08080b"/>
+
+  <!-- Candy sparkles -->
+  <g shape-rendering="crispEdges">
+    <path d="M177 44h8v20h-8zM171 50h20v8h-20z" fill="#53dff0"/>
+    <path d="M719 37h7v17h-7zM714 42h17v7h-17z" fill="#ffd23f"/>
+    <rect x="132" y="128" width="8" height="8" fill="#ff4d9d"/>
+    <rect x="763" y="127" width="8" height="8" fill="#8fe04f"/>
+    <rect x="206" y="145" width="6" height="6" fill="#ffd23f"/>
+    <rect x="692" y="144" width="6" height="6" fill="#53dff0"/>
+  </g>
+
+  <!-- Wrapped sweets -->
+  <g stroke="#08080b" stroke-linejoin="round" stroke-width="5">
+    <path d="M93 82l18 10-5 17 5 17-18 10-8-13H61l-8 13-18-10 5-17-5-17 18-10 8 13h24z" fill="#ff4d9d"/>
+    <path d="M80 92v39M63 95v33" stroke="#ffd7e9" stroke-width="5"/>
+    <path d="M789 84l18 10-5 17 5 17-18 10-8-13h-24l-8 13-18-10 5-17-5-17 18-10 8 13h24z" fill="#8fe04f"/>
+    <path d="M776 94v39M759 97v33" stroke="#e3ffca" stroke-width="5"/>
+  </g>
+
+  <!-- Chunky two-tone wordmark -->
+  <g font-family="'Arial Rounded MT Bold', 'Trebuchet MS', Arial, sans-serif" font-size="70" font-weight="900" text-anchor="middle" paint-order="stroke fill" stroke="#171018" stroke-linejoin="round" stroke-width="12">
+    <text x="336" y="120" fill="#9c431b" stroke="none">Bouncy</text>
+    <text x="593" y="120" fill="#853363" stroke="none">Broda</text>
+    <text x="336" y="112" fill="#ffd23f">Bouncy</text>
+    <text x="593" y="112" fill="#ff5aa5">Broda</text>
+  </g>
+</svg>

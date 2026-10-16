@@ -1,16 +1,14 @@
-<div align="center">
-  <img src="files/media/icon.png" alt="Icono de Bouncy Broda" width="96">
-  <h1>Bouncy Broda</h1>
-  <p>Un arcade de reflejos: guía la pelota, encadena rebotes y trata de llegar a 70 puntos.</p>
-</div>
+<h1 align="center">
+  <img src="docs/assets/bouncy-broda-wordmark.svg" alt="Bouncy Broda" width="520">
+</h1>
 
-## Una partida en marcha
+## rebota.
 
 <p align="center">
-  <img src="docs/assets/bouncy-gameplay.png" alt="Partida de Bouncy Broda: la pelota rebota entre plataformas de colores y el marcador muestra 6 puntos." width="420">
+  <img src="docs/assets/bouncy-broda-gameplay.gif" alt="Partida de Bouncy Broda en movimiento: la pelota rebota entre plataformas de colores y el marcador sube." width="420">
 </p>
 
-La partida termina al caer fuera de la pantalla. Cada rebote suma un punto; alcanza **70 puntos** para ganar.
+Cada rebote suma un punto. Llega a **70** para ganar. Si la pelota cae fuera de la pantalla, la partida termina.
 
 ## Controles
 
@@ -36,5 +34,4 @@ También puedes abrir `Bouncy_Broda.pyw` desde el explorador de archivos.
 
 ---
 
-README y material visual preparados con asistencia de IA. El código del juego no se modificó.
-
+README y logotipo preparados con asistencia de IA. El GIF muestra una partida capturada del juego original; el código del juego no se modificó.
