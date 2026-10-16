@@ -5,7 +5,7 @@
 ## rebota.
 
 <p align="center">
-  <img src="docs/assets/bouncy-broda-gameplay.gif" alt="Partida de Bouncy Broda en movimiento: la pelota rebota entre plataformas de colores y el marcador sube." width="420">
+  <img src="docs/assets/bouncy-broda-gameplay.gif" alt="Demo de Bouncy Broda: el jugador mueve la pelota con A y D, rebota en varias plataformas y el marcador sube." width="514">
 </p>
 
 Cada rebote suma un punto. Llega a **70** para ganar. Si la pelota cae fuera de la pantalla, la partida termina.
@@ -34,4 +34,4 @@ También puedes abrir `Bouncy_Broda.pyw` desde el explorador de archivos.
 
 ---
 
-README y logotipo preparados con asistencia de IA. El GIF muestra una partida capturada del juego original; el código del juego no se modificó.
+README y logotipo preparados con asistencia de IA. El GIF muestra una partida del juego original con controles preparados para la demo; el código del juego no se modificó.
